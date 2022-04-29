@@ -1,0 +1,47 @@
+body{
+    background: #ededed;
+}
+#rate{
+    width: 500px;
+    background: white;
+    padding: 10px 0 20px 0;
+    margin: auto;
+    box-shadow: 0 0 15px lightblue;
+}
+form{
+    display: flex;
+    justify-content: space-around;
+}
+#fromRate,#toRate{
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    text-align: center;
+    margin: 0;
+}
+input{
+    width: 200px;
+    padding: 7px;
+    margin-bottom: 20px;
+    border: 1px solid #d7d7d7;
+    border-radius: 5px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+select{
+    padding: 7px;
+    border-radius: 5px;
+    border: 1px solid #d7d7d7;
+}
+#rateChange{
+    text-align: center;
+    padding: 0 20px;
+    overflow-wrap: anywhere;
+}
+span{
+    color: rgb(62, 255, 62);
+}
